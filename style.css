@@ -169,7 +169,7 @@ p{
 
 /* hero section */
 #hero{
-    background-image: url(images/aki2560.jpg);
+    background-image: url(aki2560.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -314,7 +314,7 @@ p{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(images/FB_IMG_1465703571206-01.jpeg);
+    background-image: url(FB_IMG_1465703571206-01.jpeg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
