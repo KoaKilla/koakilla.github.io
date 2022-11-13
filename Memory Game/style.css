@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat:wght@300;400;700&display=swap');
+
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#grid{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: josefin sans, sans-serif;
+
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: josefin sans, sans-serif;
+    font-size: 1rem;
+
+}
+
+h1 .red{
+    color: crimson;
+}
+h1 .yellow{
+    color: yellow;
+}
+h1 .green-yellow{
+    color: yellowgreen;
+}
+h1 .green{
+    color: green;
+}
+h1 .blue{
+    color: blue;
+}
+h1 .purple{
+    color: purple;
+}
+
