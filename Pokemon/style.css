@@ -72,3 +72,12 @@ main {
 .pokemonBox .pokemonInfos {
   padding: 2rem;
 }
+
+#github{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 600px;
+  text-decoration: none;
+}

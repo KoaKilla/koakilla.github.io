@@ -53,4 +53,11 @@ h1 .blue{
 h1 .purple{
     color: purple;
 }
-
+#github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 600px;
+    text-decoration: none;
+  }
