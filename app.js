@@ -4,11 +4,11 @@ const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a'
 const header = document.querySelector('.header.container');
 
 hamburger.addEventListener('click', ()=>{
-    hamburger.classList.toggle('active');
-    mobile_menu.classList.toggle('active');
+    hamburger.classList.toggle('active'); //creates a class on the hamburger div so that "on click" creates a transition
+    mobile_menu.classList.toggle('active'); //creates a class on the hamburger div so that "on click" creates a transition
 });
 
-
+// removes transparency from the nav bar when scrolling below a certain point
 document.addEventListener('scroll',()=>{
     let scroll_position = window.scrollY;
     if(scroll_position > 250){
