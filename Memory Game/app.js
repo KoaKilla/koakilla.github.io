@@ -1,51 +1,51 @@
 const cardArray = [
     {
         name: 'fries',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/fries.png'
+        img:'fries.png'
     },
     {
         name: 'cheeseburger',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/cheeseburger.png'
+        img:'cheeseburger.png'
     },
     {
         name: 'hotdog',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/hotdog.png'
+        img:'hotdog.png'
     },
     {
         name: 'ice-cream',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/ice-cream.png'
+        img:'ice-cream.png'
     },
     {
         name: 'milkshake',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/milkshake.png'
+        img:'milkshake.png'
     },
     {
         name: 'pizza',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/pizza.png'
+        img:'pizza.png'
     },
     {
         name: 'fries',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/fries.png'
+        img:'fries.png'
     },
     {
         name: 'cheeseburger',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/cheeseburger.png'
+        img:'cheeseburger.png'
     },
     {
         name: 'hotdog',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/hotdog.png'
+        img:'hotdog.png'
     },
     {
         name: 'ice-cream',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/ice-cream.png'
+        img:'ice-cream.png'
     },
     {
         name: 'milkshake',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/milkshake.png'
+        img:'milkshake.png'
     },
     {
         name: 'pizza',
-        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/pizza.png'
+        img:'pizza.png'
     },
 
 ]
