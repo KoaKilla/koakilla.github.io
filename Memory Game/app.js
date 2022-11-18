@@ -1,52 +1,53 @@
 const cardArray = [
     {
         name: 'fries',
-        img:'images/fries.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/fries.png'
     },
     {
         name: 'cheeseburger',
-        img:'images/cheeseburger.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/cheeseburger.png'
     },
     {
         name: 'hotdog',
-        img:'images/hotdog.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/hotdog.png'
     },
     {
         name: 'ice-cream',
-        img:'images/ice-cream.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/ice-cream.png'
     },
     {
         name: 'milkshake',
-        img:'images/milkshake.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/milkshake.png'
     },
     {
         name: 'pizza',
-        img:'images/pizza.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/pizza.png'
     },
     {
         name: 'fries',
-        img:'images/fries.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/fries.png'
     },
     {
         name: 'cheeseburger',
-        img:'images/cheeseburger.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/cheeseburger.png'
     },
     {
         name: 'hotdog',
-        img:'images/hotdog.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/hotdog.png'
     },
     {
         name: 'ice-cream',
-        img:'images/ice-cream.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/ice-cream.png'
     },
     {
         name: 'milkshake',
-        img:'images/milkshake.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/milkshake.png'
     },
     {
         name: 'pizza',
-        img:'images/pizza.png'
+        img:'https://github.com/KoaKilla/koakilla.github.io/blob/main/Memory%20Game/Images/pizza.png'
     },
+
 ]
 
 cardArray.sort(() => 0.5 - Math.random())
