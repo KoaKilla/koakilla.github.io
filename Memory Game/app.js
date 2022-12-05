@@ -56,7 +56,7 @@ const gridDisplay = document.querySelector('#grid')
 // const resultDisplay = document.querySelector('#result')
 let cardsChosen = []
 let cardsChosenIds = []
-const cardsWon = []
+let cardsWon = []
 
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++){
@@ -64,34 +64,42 @@ function createBoard() {
         card.setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/blank.png')
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)
-        gridDisplay.append(card)
+        gridDisplay.appendChild(card)
     }
 }
 
-createBoard()
 
 function checkMatch() {
-    const cards = document.querySelectorAll('#grid img')
-    if (cardsChosen[0] == cardsChosen[1]){
+    const cards = document.querySelectorAll('img')
+    const optionOneId = cardsChosenIds[0]
+    const optionTwoId = cardsChosenIds[1]
+
+    // if(optionOneId == optionTwoId) {
+    //     cards[optionOneId].setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/blank.png')
+    //     cards[optionTwoId].setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/blank.png')
+    //     alert('You have clicked the same image!')
+    // }
+     if (cardsChosen[0] === cardsChosen[1]){
         alert('Match!')
         cards[cardsChosenIds[0]].setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/white.png')
         cards[cardsChosenIds[1]].setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/white.png')
         cards[cardsChosenIds[0]].removeEventListener('click', flipCard)
         cards[cardsChosenIds[1]].removeEventListener('click', flipCard)
         cardsWon.push(cardsChosen)
-    } else {
+    }
+    else {
         cards[cardsChosenIds[0]].setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/blank.png')
         cards[cardsChosenIds[1]].setAttribute('src', 'https://raw.githubusercontent.com/KoaKilla/koakilla.github.io/main/Memory%20Game/blank.png')
         alert('Sorry try again')
     }
+}
     // resultDisplay.innerHTML = cardsWon.length
     cardsChosen = []
     cardsChosenIds = []
 
     // if (cardsWon.length === cardArray.length/2){
         // resultDisplay.innerHTML = 'Winner!'
-    }
-// }
+
 
 function flipCard(){
     const cardId = this.getAttribute('data-id')
@@ -102,3 +110,4 @@ function flipCard(){
         setTimeout(checkMatch, 100)
     }
 }
+createBoard()
